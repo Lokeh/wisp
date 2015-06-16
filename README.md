@@ -12,7 +12,7 @@ I only tested this with node v0.10.35 and OS X. Normally I'm all about io.js but
 
 ## Usage
 
-`wisp` changes the first user's (id = 1) password to, simply, 'password'.
+`wisp` changes the first user's (id = 1) password to, simply, 'password'. I may add args later to customize this.
 
 ```
 $ cd ~/code/ghost/content/data
