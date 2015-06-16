@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 /* index.js */
 var bcrypt = require('bcrypt');
 var sqlite3 = require('sqlite3').verbose();
