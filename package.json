@@ -1,0 +1,17 @@
+{
+  "name": "wisp",
+  "version": "0.0.1",
+  "description": "Reset a ghostblog password",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ghost",
+    "blog",
+    "password",
+    "reset"
+  ],
+  "author": "Will Acton",
+  "license": "MIT"
+}
