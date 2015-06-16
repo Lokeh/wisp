@@ -4,4 +4,20 @@
 
 Since I'm not too bright, I always forget what I set my password to while working on my blog locally. So I wrote a tool to reset my password for me.
 
-I only tested this with node v0.10.35. Normally I'm all about io.js but Ghost requires v0.10, so I'm usually using v0.10 when working on a project in Ghost.
+I only tested this with node v0.10.35 and OS X. Normally I'm all about io.js but Ghost requires node v0.10, so I'm usually using v0.10 when working on a project in Ghost.
+
+## Install
+
+`npm install Lokeh/wisp -g`
+
+## Usage
+
+`wisp` changes the first user's (id = 1) password to, simply, 'password'.
+
+```
+$ cd ~/code/ghost/content/data
+$ wisp
+Success!
+```
+
+Now go log in.
